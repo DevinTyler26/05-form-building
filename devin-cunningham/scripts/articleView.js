@@ -74,7 +74,7 @@ articleView.setTeasers = () => {
   });
 };
 
-// COMMENT: Where is this function called? Why?
+// COMMENTED: Where is this function called? Why?
 // PUT YOUR RESPONSE HERE
 // In the new.html file and it is called at the bottom of the page so it will load when the page is loaded.
 articleView.initNewArticlePage = () => {
@@ -123,7 +123,7 @@ articleView.create = () => {
   $('#article-json').val(json);
 };
 
-// COMMENT: Where is this function called? Why?
+// COMMENTED: Where is this function called? Why?
 // PUT YOUR RESPONSE HERE
 //On the index.html page and so it will run the js functions to populate the index page.
 articleView.initIndexPage = () => {
