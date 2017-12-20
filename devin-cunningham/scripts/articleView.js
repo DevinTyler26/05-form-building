@@ -76,6 +76,7 @@ articleView.setTeasers = () => {
 
 // COMMENT: Where is this function called? Why?
 // PUT YOUR RESPONSE HERE
+// In the new.html file and it is called at the bottom of the page so it will load when the page is loaded.
 articleView.initNewArticlePage = () => {
   // TODONE: Ensure the main .tab-content area is revealed. We might add more tabs later or otherwise edit the tab navigation.
   $('.tab-content').show();
@@ -124,6 +125,7 @@ articleView.create = () => {
 
 // COMMENT: Where is this function called? Why?
 // PUT YOUR RESPONSE HERE
+//On the index.html page and so it will run the js functions to populate the index page.
 articleView.initIndexPage = () => {
   articles.forEach(article => $('#articles').append(article.toHtml()));
   articleView.populateFilters();
